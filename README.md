@@ -1,7 +1,7 @@
 # Turbo
 Scan with Turbo, a mass port scanning tool. Scan 256 hosts in just 1 second.
 
-Watch Turbo play here: https://www.youtube.com/watch?v=J4gawRD-RDo
+Watch Turbo at play here: https://www.youtube.com/watch?v=J4gawRD-RDo
 
 # Installation
 For Linux platforms:
