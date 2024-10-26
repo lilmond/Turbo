@@ -1,5 +1,5 @@
 # Turbo
-Turbo-charged mass port scanner. Scan 256 IP ports in just 1 second.
+Scan with Turbo, a mass port scanning tool. Scan 256 hosts in just 1 second.
 
 # Installation
 For Linux platforms:
