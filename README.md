@@ -11,6 +11,13 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
+# System Installation
+For Linux platform:
+```
+cp ./turbo.py /usr/bin/turbo
+chmod 775 /usr/bin/turbo
+```
+
 # Usage
 ```
  ________                     __                 
