@@ -1,7 +1,22 @@
+#!/usr/bin/python3
 from scapy.all import *
 import ipaddress
 import argparse
 import os
+
+BANNER = r""" ________                     __                 
+|        \                   |  \                
+ \$$$$$$$$__    __   ______  | $$____    ______  
+   | $$  |  \  |  \ /      \ | $$    \  /      \ 
+   | $$  | $$  | $$|  $$$$$$\| $$$$$$$\|  $$$$$$\
+   | $$  | $$  | $$| $$   \$$| $$  | $$| $$  | $$
+   | $$  | $$__/ $$| $$      | $$__/ $$| $$__/ $$
+   | $$   \$$    $$| $$      | $$    $$ \$$    $$
+    \$$    \$$$$$$  \$$       \$$$$$$$   \$$$$$$ 
+
+     Source: https://github.com/lilmond/Turbo
+
+"""
 
 def turbo_port_check(ip_cidr: str, port: int, include_port: bool = False):
     ip_packet = IP(dst=ip_cidr)
@@ -26,11 +41,7 @@ def turbo_port_check(ip_cidr: str, port: int, include_port: bool = False):
     return online_hosts
             
 def main():
-    with open("banner.txt", "r") as file:
-        banner = file.read()
-        file.close()
-    
-    print(banner)
+    print(BANNER)
 
     if not os.geteuid() == 0:
         print("Please run this script as root.")
