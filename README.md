@@ -45,3 +45,5 @@ options:
   -p PORT, --port PORT  Port to scan.
   --include-port        Include port in the output.
 ```
+
+Please don't forget to leave a star and follow :3
