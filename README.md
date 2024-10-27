@@ -3,6 +3,11 @@ Scan with Turbo, a mass port scanning tool. Scan 256 hosts in just 1 second.
 
 Watch Turbo at play here: https://www.youtube.com/watch?v=J4gawRD-RDo
 
+# Tip
+Use **Turbo** if you're going to scan 256 hosts at once.
+
+Use **Turbo2** if you're going to scan 65356 hosts, or more than 1,000 hosts.
+
 # Installation
 For Linux platforms:
 ```
