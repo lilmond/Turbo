@@ -13,7 +13,7 @@ Use **Turbo2** if you're going to scan 65356 hosts, or more than 1,000 hosts.
 # Installation
 For Linux platforms:
 ```
-apt install python3-pip
+sudo apt install python3-pip
 git clone https://github.com/lilmond/Turbo
 cd ./Turbo
 python3 -m venv venv
